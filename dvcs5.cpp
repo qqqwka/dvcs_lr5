@@ -69,7 +69,7 @@ void FileManager::writeOutputFile(QStringList &subExpressions, short *values, in
 
     char* vals = (char*)malloc(2*rowAmount*columnAmount*sizeof(char)+1);
 
-    int k = 0;
+    int k = 1;
     for(int i = 0; i < rowAmount; i++)
     {
         for (int j = 0; j < columnAmount; j++, k+=2)
