@@ -74,7 +74,7 @@ void FileManager::writeOutputFile(QStringList &subExpressions, short *values, in
     {
         for (int j = 0; j < columnAmount; j++, k+=2)
         {
-            char val = *(values + i*columnAmount + j) + 48;
+            char val = *(values + i*columnAmount + j) + 36;
 
             *(vals + k) = val;
 
