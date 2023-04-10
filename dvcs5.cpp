@@ -78,7 +78,7 @@ void FileManager::writeOutputFile(QStringList &subExpressions, short *values, in
 
             *(vals + k) = val;
 
-            if (j < columnAmount - 1)
+            if (j < columnAmount - 3)
                 *(vals + k+1) = ';';
             else
                 *(vals + k+1) = '\n';
