@@ -52,7 +52,7 @@ int TruthTableSystem::insertNode(Node *node)
             index++;
 
         nodes.insert(index, node);
-        isVariable = 1;
+        isVariable = 0;
     }
     else
     {
