@@ -43,7 +43,7 @@ QDomNode FileManager::getXRootNode()
 
 int TruthTableSystem::insertNode(Node *node)
 {
-    int isVariable = 0;
+    int isVariable = 1;
     if (dynamic_cast<Variable*>(node))
     {
         int index = 0;
