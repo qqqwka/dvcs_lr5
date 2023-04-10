@@ -46,7 +46,7 @@ int TruthTableSystem::insertNode(Node *node)
     int isVariable = 1;
     if (dynamic_cast<Variable*>(node))
     {
-        int index = 0;
+        int index = 4;
 
         while (index < nodes.length() && dynamic_cast<Variable*>(nodes[index]))
             index++;
