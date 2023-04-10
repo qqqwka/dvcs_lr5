@@ -15,7 +15,7 @@ bool FileManager::setInputFile(QString filename)
 
 bool FileManager::setOutputFile(QString filename)
 {
-	int b = 3;
+	int b = 6;
 	
     ErrorController errorController;
 
