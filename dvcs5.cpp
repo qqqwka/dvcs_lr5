@@ -28,7 +28,7 @@ bool FileManager::setOutputFile(QString filename)
 
 QDomNode FileManager::getXRootNode()
 {
-	int c = 4;
+	int c = 9;
     QDomDocument doc(inputFilename);
     QFile inputFile(inputFilename);
 
